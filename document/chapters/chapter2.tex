@@ -56,7 +56,7 @@ The general objective of our literature review is to understand how voice assist
 
 \subsection{\RQI}
 
-Lin
+\citet{Li20193784} proposes a name-free domain classification that can continuous learn and adapt the model to incoming domains without the need of retraining.
 
 \subsection{\RQII}
 
@@ -66,8 +66,7 @@ Those software platforms have issues related to security and privacy. Those devi
 
 \subsection{\RQIII}
 
-\cite{Li20193784}
-Li et al. implement a name-free domain classification model capable of using personalized information to support the classification of an utterance in a domain. The model’s name is CoNDA, and it is baselined on SHORLISTER. Besides its name-free feature, CoNDA supports domain adaptation, by continuous learning the new domains without the need to retrain the whole model. Just like its baseline model, CoNDA contains three modules: The first is a LSTM encoder that converts utterances in dense vector representation by using word embeddings. The second model is the personalized domain summarization, which outputs an enabled personalized domain dense vector. and finally the third module, which is a two-layer feed forward network that will act as our classifier. In their experimentation, the model results in a 95.6% prediction accuracy for the initial trained models, and 88.2% accuracy after we feed the model 100 new domains, which is only 3.6% lower than the upper bound model, which is retraining it with the concatenated dataset of all the previous model.
+\citet{Li20193784} implemented a name-free domain classification model capable of using personalized information to support the classification of an utterance in a domain. The model’s name is CoNDA, and it is baselined on SHORLISTER. Besides its name-free feature, CoNDA supports domain adaptation, by continuous learning the new domains without the need to retrain the whole model. Just like its baseline model, CoNDA contains three modules: The first is a LSTM encoder that converts utterances in dense vector representation by using word embeddings. The second model is the personalized domain summarization, which outputs an enabled personalized domain dense vector. and finally the third module, which is a two-layer feed forward network that will act as our classifier. In their experimentation, the model results in a 95.6% prediction accuracy for the initial trained models, and 88.2% accuracy after we feed the model 100 new domains, which is only 3.6% lower than the upper bound model, which is retraining it with the concatenated dataset of all the previous model.
 
 \section{Search Conclusions}
 
