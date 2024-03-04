@@ -118,7 +118,7 @@
 
 % Setup bibliography with Biber using IEEE style for proper UTF-8 support
 \usepackage[backend=biber, style=ieee, sorting=none, natbib=true, mincitenames=1, maxcitenames=2]{biblatex}
-\bibliography{bib/references.bib}
+\bibliography{bib/references.bib, , bib/rfc.bib}
 
 % Use acronyms
 \usepackage[printonlyused]{acronym} % For acronyms
@@ -387,9 +387,7 @@
 % Redefine References name to Portuguese
 % Change if you are using english
 \defbibheading{bibliography}[Referências]{
-	\chapter{#99}
 	\chapter{#1}
-	\chapter{#2}
 }
 \SingleSpacing
 \setlength\bibitemsep{8pt}
