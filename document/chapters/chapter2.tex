@@ -6,7 +6,7 @@
 
 \newcommand{\RQII}{What is the state-of-the-art and the main services that exist in the market on Voice User Interfaces?}
 
-\newcommand{\RQIII}{How does one implement a Voice User Assistants(VUIs) for domain-specific contexts?
+\newcommand{\RQIII}{How does one implement a Voice User Assistants(VUIs) for domain-specific contexts?}
 
 The development of artificial intelligence technologies in recent times is undeniable. Therefore, it is expected that research and screening of documents that represent this knowledge obtained can lead us to understand how voice assistants work and how to implement a possible template that is capable of receiving different domains/contexts and training the platform to be able to execute commands. in these respective domains, especially, in our case, in human resources.
 
@@ -65,6 +65,9 @@ In \cite{Hoy201881} the main voice user assistants in the market are Amazon's Al
 Those software platforms have issues related to security and privacy. Those devices cannot yet authenticate their users by voice, and considering their privileges, they can be a huge threat. Also, it was comproved that those devices are capable of recognizing ultrasonic frequencies and execute accordingly. Also, many users feel afraid that their data is being constantly recording and being sent to private data centers.
 
 \subsection{\RQIII}
+
+\cite{Li20193784}
+Li et al. implement a name-free domain classification model capable of using personalized information to support the classification of an utterance in a domain. The model’s name is CoNDA, and it is baselined on SHORLISTER. Besides its name-free feature, CoNDA supports domain adaptation, by continuous learning the new domains without the need to retrain the whole model. Just like its baseline model, CoNDA contains three modules: The first is a LSTM encoder that converts utterances in dense vector representation by using word embeddings. The second model is the personalized domain summarization, which outputs an enabled personalized domain dense vector. and finally the third module, which is a two-layer feed forward network that will act as our classifier. In their experimentation, the model results in a 95.6% prediction accuracy for the initial trained models, and 88.2% accuracy after we feed the model 100 new domains, which is only 3.6% lower than the upper bound model, which is retraining it with the concatenated dataset of all the previous model.
 
 \section{Search Conclusions}
 
