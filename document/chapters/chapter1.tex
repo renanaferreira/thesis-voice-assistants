@@ -1,86 +1,64 @@
-\chapter{Introdução}
-\label{chapter:introduction}
+\chapter{Introduction}\label{chapter:introduction}
 
-\begin{introduction}
-A short description of the chapter.
+\section{Dissertation Framework}
 
-A memorable quote can also be used.
-\end{introduction}
+The current systematic literary review is involved within the scope of the Dissertation/Internship Preparation (PDE) and Dissertation/Internship course of the Master's in Computer Engineering (MEI), of the Department of Electronics, Telecommunications and Information Technology (DETI), of the University of Aveiro.
+
+The review aims to be able to develop an intelligent assistant based on voice commands that is capable of interpreting and correctly executing commands related to the area of human resources (HR) knowledge.
+
+To ensure that the development of the creation of this literary review avoided biases, and efficiently obtained the answers determined for the context, systematic methodologies were used, accepted by the majority of the current scientific community.
+
+\section{Contextualization of the Problem}
+
+% CHATGPT
+
+Voice-user interfaces (VUIs) have emerged as integral components of modern technology, transforming the way users interact with devices. The increasing prevalence of VUIs, facilitated by Automatic Speech Recognition (ASR) and Natural Language Processing (NLP), has paved the way for innovative applications in various domains. This research seeks to explore the untapped potential of developing domain-specific VUI personal assistants, with a focus on enhancing functionalities within the human resources sector.
+
+\section{Project Contributions and Objectives}
+
+%CHATGPT
+
+While general-purpose VUIs have gained popularity, there remains a notable gap in the availability of domain-specific solutions tailored to the unique needs of specific industries. In particular, the human resources domain stands to benefit significantly from the implementation of VUI personal assistants capable of understanding, interpreting, and executing commands specific to HR tasks.
+
+\section{Project Planning}
+
+To be able to develop this literary review, we planned the time according to the table \ref{table:1}.
+
+\begin{table}[h!]\label{table:1}
+    \centering
+    \begin{tabularx}{0.8\textwidth} {
+        | >{\raggedright\arraybackslash}X 
+        | >{\centering\arraybackslash}X |}
+        \hline
+        Phase & Period \\
+        \hline
+        Review Writing & hey \\ 
+        \hline
+        Definition of research methodologies & oi \\
+        \hline
+        Solution Analysis \& Design & 545 \\
+        \hline
+    \end{tabularx}
+    \caption{Table to test captions and labels.}
+\end{table}
 
 
 
-\section{Acrónimos}
+\section{Literary Review Structure}
 
-Primeira e seguintes referências: \ac{h2o}, \ac{h2o}
-
-Plural, acrónimo expandido e curto: \acp{h2o}, \acl{h2o}, \acs{h2o}
-
-Com citação\footnote{Necessária entrada na bibliografia}: \ac{adsl}, \ac{adsl}
-
-
-\section{Fontes}
-
-\begin{itemize}
-\item{\tiny Tiny}
-\item{\scriptsize Scriptsize}
-\item{\footnotesize Footnotes}
-\item{\small Small}
-\item{\normalsize Normal}
-\item{\large large}
-\item{\Large Large}
-\item{\LARGE LARGE}
-\item{\huge huge}
-\item{\Huge Huge}
-\end{itemize}
-
-\section{Unidades}
-
-Utilizando o pacote \verb|siunitx| é possível utilizar unidades do Sistema Internacional. Exemplo: a aceleração da gravidade é de \SI{9.8}{\metre\per\second\squared} e um ficheiro ocupa \SI{1}{\mebi\byte}. 
-
-\section{Code Blocks}
-%\lipsum[5]
-Uma listagem pode ser apresentada com o ambiente \texttt{listing}, que é um float (objeto flutuante, tal como uma figura ou uma tabela).
-
-A listagem em Código~\ref{lbl:snippet-test} mostra um exemplo em C.
-
-\begin{listing}[h]
-\begin{minted}{c}
-
-#include <stdio.h>
-#define N 10
-/* Block
- * comment */
- 
-int main()
-{
-    int i;
- 
-    // Line comment.
-    puts("Hello world!");
- 
-    for (i = 0; i < N; i++)
-    {
-        puts("LaTeX is also great for programmers!");
-    }
- 
-    return 0;
-}
-\end{minted}
-\caption{This caption appears below the code.}
-\label{lbl:snippet-test}
-\end{listing}
-
-%\lipsum[5]
-
-\section{Citações}
-
-Algumas formas distintas de citar:
+This Literature Review is structured through the following chapters:
 
 \begin{itemize}
-    \item \textbf{Apenas referência}:~\cite{rfc44}
-    \item \textbf{Apenas data}:~\citedate{rfc44}
-    \item \textbf{Apenas ano}:~\citeyear{rfc44}
-    \item \textbf{Apenas autor}:~\citeauthor{rfc44}
-    \item \textbf{Apenas editor}:\citelist{rfc44}{organization}
-    \item \textbf{Autor e referência}:\citet{rfc44}
-\end{itemize}
+    \item Introduction
+    \item Systematic Literature Review
+    \item Solution Analysis \& Design
+    \item Conclusion
+\end{itemize}    
+
+In the first chapter, the introduction, we give a resume about the problem and the goals of this review. Besides, it shows how the document is organized.
+
+In the second, we go deep in the literature review, explaining the methdology and steps we followed, the questions we established, and the answers and conclusions we obtained for each of those questions.
+
+In the third chpater, we come up with a possible solution to the problem we present in this literature review.
+
+By the fourth and final chapter, we conclude this literature review.
